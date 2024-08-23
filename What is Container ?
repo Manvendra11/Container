@@ -1,27 +1,21 @@
-What is a container ?
-Container Contains
-  - Code
-  - Runtime
-  - Library
-in a package and this package is called as "IMAGE" or "Container IMAGE"
+What is a Container?
+A container is a compact and self-contained unit that packages everything needed to run an application. This includes:
 
-What is Difference between Container and a Virtual Machine ?
+Code
+Runtime
+Libraries
+All these elements are bundled together in a package known as a "Container Image."
 
-VM Contains > Operating System, Application, Liabary
-Container Contains > Application and Liabary. It uses its Host Operating System and its kernel to run the application. 
+What is the Difference Between a Container and a Virtual Machine?
+Virtual Machines (VMs): A VM includes a full operating system along with the application and its libraries. Each VM runs its own complete OS, which can lead to higher resource usage and overhead.
 
-Benefits of container is it LightWeight.
+Containers: Containers, by contrast, only include the application and its libraries. They rely on the host operating system and its kernel to run, making them significantly lighter and more efficient than VMs.
 
-What is Kubernetes ? 
+Benefits of Containers
+The primary benefit of containers is their lightweight nature. Because they share the host operating system's kernel, containers require fewer resources, start up faster, and scale more efficiently.
 
-We can user Kubernetes to create Microservices based architecture using containers.
+What is Kubernetes?
+Kubernetes is an open-source platform designed to orchestrate containerized applications. It enables the creation of microservices-based architectures and automates the deployment, management, and scaling of containers.
 
-KUBENETES is used for Orchestration of Containerised application.
-It helps to automated , manage and scale up of containers.
-
-What are Kubernetes Pod ?
-
-In simple terms Kubertes Pod is grouping of containers.
-Kubernetes is a way to work with Containers by using POD.
-
-
+What are Kubernetes Pods?
+In simple terms, a Kubernetes Pod is a group of containers that are managed as a single entity. Kubernetes uses Pods to streamline the management and orchestration of containers, ensuring efficient operation and scaling.
