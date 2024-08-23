@@ -1,0 +1,27 @@
+What is a container ?
+Container Contains
+  - Code
+  - Runtime
+  - Library
+in a package and this package is called as "IMAGE" or "Container IMAGE"
+
+What is Difference between Container and a Virtual Machine ?
+
+VM Contains > Operating System, Application, Liabary
+Container Contains > Application and Liabary. It uses its Host Operating System and its kernel to run the application. 
+
+Benefits of container is it LightWeight.
+
+What is Kubernetes ? 
+
+We can user Kubernetes to create Microservices based architecture using containers.
+
+KUBENETES is used for Orchestration of Containerised application.
+It helps to automated , manage and scale up of containers.
+
+What are Kubernetes Pod ?
+
+In simple terms Kubertes Pod is grouping of containers.
+Kubernetes is a way to work with Containers by using POD.
+
+
